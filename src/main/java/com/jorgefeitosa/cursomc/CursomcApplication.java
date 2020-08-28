@@ -16,7 +16,7 @@ import com.jorgefeitosa.cursomc.domain.Produto;
 import com.jorgefeitosa.cursomc.domain.enums.TipoCliente;
 import com.jorgefeitosa.cursomc.repositories.CategoriaRepository;
 import com.jorgefeitosa.cursomc.repositories.CidadeRepository;
-import com.jorgefeitosa.cursomc.repositories.ClientesRepository;
+import com.jorgefeitosa.cursomc.repositories.ClienteRepository;
 import com.jorgefeitosa.cursomc.repositories.EnderecoRepository;
 import com.jorgefeitosa.cursomc.repositories.EstadoRepository;
 import com.jorgefeitosa.cursomc.repositories.ProdutoRepository;
@@ -33,7 +33,7 @@ public class CursomcApplication implements CommandLineRunner{
 	@Autowired
 	private EstadoRepository estadoRepository;
 	@Autowired
-	private ClientesRepository clientesRepository;
+	private ClienteRepository clientesRepository;
 	@Autowired
 	private EnderecoRepository enderecoRepository;
 	

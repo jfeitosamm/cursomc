@@ -8,6 +8,6 @@ import com.jorgefeitosa.cursomc.domain.Cliente;
 
 
 @Repository
-public interface ClientesRepository extends JpaRepository<Cliente, Integer>{
+public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
 
 }
